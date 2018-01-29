@@ -1,4 +1,4 @@
-(module NorComp-M12-3-angle (layer F.Cu) (tedit 5A6A2808)
+(module NorComp-M12-3-angle (layer F.Cu) (tedit 5A6E7C0A)
   (fp_text reference J3 (at 0 2.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,9 +15,9 @@
   (pad 2 thru_hole circle (at -1.8 -9.7) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -1.8 -13.3) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1.8 -9.7) (size 2 2) (drill 1.1) (layers *.Cu *.Mask))
-  (model ../../../../../home/mss/git/fatiga-hartware/abajo/3d_conten/NorComp-861-003-113r0y.wrl
-    (offset (xyz 0 -13.71599979400635 9.143999862670897))
-    (scale (xyz 0.3937 0.3937 0.3937))
+  (model ${KISYS3DMOD}/3D_MSS/861-003-113R004.STEP
+    (offset (xyz 0 -13.7 9.199999999999999))
+    (scale (xyz 1 1 1))
     (rotate (xyz 90 -45 0))
   )
 )
